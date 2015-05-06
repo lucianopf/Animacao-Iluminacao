@@ -1,9 +1,39 @@
-    body {
-      background: black;
-      margin: 0;
+body {
+  background: black;
+  margin: 0;
+}
+.container {
+  position: absolute;
+  width:0px;
+  height: 100%;
+  width: 100%;
+}
+.pannel{
+	padding:1%;
+	position:absolute;
+	width: 30%;
+	left: 30%;
+	right: 30%;
+	top: 30%;
+	border: 1px solid white;
+	color:white;
+	border-radius: 5px 5px 5px 5px;
+	text-align: center;
+	vertical-align: middle;
+	display: block;
+	font-family: 'Lato', sans-serif;
+}
+p{
+	font-size: 12px;
+}
+a {
+    text-decoration: none;
+    color:white;
+    position: relative;
+    top:-5px;
+}
+@media screen and (max-width: 500px){
+    .pannel{
+        visibility: hidden;
     }
-    .container {
-      position: absolute;
-      height: 100%;
-      width: 100%;
-    }
+}
